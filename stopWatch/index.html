@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Stop Watch</title>
+</head>
+<body>
+    <div class="outer">
+        <!--<div class="history">
+            <button class="btn" id="history"><i class="fa fa-history" aria-hidden="true"></i></button>
+        </div>-->
+        <div class="timer" id="timer">
+            <span id="hour">00</span> :
+            <span id="minutes">00</span> :
+            <span id="seconds">00</span> :
+            <span id="milliseconds">00</span>
+        </div>
+        <div class="options" id="options">
+            <button id="play" class="btn" title="PLAY"><i class="fa fa-play fa-2x" aria-hidden="true"></i>play</button>
+            <button id="stop" class="btn" title="Stop"><i class="fa fa-stop fa-2x" aria-hidden="true">stop</i></button>
+            <button id="reset" class="btn" title="RESET"><i class="fa fa-refresh fa-2x" aria-hidden="true">reset</i></button>
+            <button id="lap" class="btn" title="LAP"><i class="fa fa-circle-o-notch fa-2x" aria-hidden="true">lap</i></button>
+        </div>
+        <div class="laps">
+            <ul class="lapList" id="laps">
+                <!---laps will be rendered here-->
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="scripts/app.js"></script>
+</html>
