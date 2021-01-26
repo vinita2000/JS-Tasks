@@ -43,3 +43,27 @@ body{
 ul{
     list-style: none;
 }
+.history{
+    display: flex;
+    justify-content: center;
+}
+.history button{
+    background: transparent;
+    color: #f3e2ec;
+    color: unset !important;
+}
+.modal{
+    background: #1f1b1b;
+    color: #1f1f1f;
+}
+.modal-body, .modal-header, .modal-footer{
+    background-color: #f3e2ec;
+}
+.modal button{
+    color: #f3e2ec;
+    background: #1f1b1b;
+}
+.modal button:hover{
+    background-color: #eed3e3;
+    color: #0c0b0b;
+}
