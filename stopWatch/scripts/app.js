@@ -41,6 +41,7 @@ function addToSessionStorage(){
 function initializeHistArr(){
     const st = '00 : 00 : 00 : 00';
     historyArr = [st, st, st, st, st, st, st, st, st, st];
+    localStorage.setItem('historyArr', JSON.stringify(historyArr));
 }
 
 //update session storage
@@ -128,7 +129,6 @@ function stopTimerHandler(){
 function addToHistory(){
     let temp = localStorage.getItem('historyArr');
     let historyArrTemp = JSON.parse(temp);
-    console.log(historyArrTemp);
     historyList.innerHTML = '';
     for(const log of historyArrTemp){
         const histLog = `<li>${log}</li>`;
