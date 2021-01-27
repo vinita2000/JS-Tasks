@@ -41,6 +41,7 @@ function addToSessionStorage(){
 function initializeHistArr(){
     const st = '00 : 00 : 00 : 00';
     historyArr = [st, st, st, st, st, st, st, st, st, st];
+    localStorage.setItem('historyArr', JSON.stringify(historyArr));
 }
 
 //update session storage
@@ -126,7 +127,8 @@ function stopTimerHandler(){
 
 //adds history data
 function addToHistory(){
-    let historyArrTemp = JSON.parse(localStorage.getItem('historyArr'));
+    let temp = localStorage.getItem('historyArr');
+    let historyArrTemp = JSON.parse(temp);
     historyList.innerHTML = '';
     for(const log of historyArrTemp){
         const histLog = `<li>${log}</li>`;
@@ -158,16 +160,6 @@ function resetTimerHandler(){
     //add current lap to the history
     formatTimer();
     updateHistArr();
-    /*//store only last 10 laps at a time
-    let currHist = `${formattedhr} : ${formattedmin} : ${formattedsec} : ${formattedms}`;
-    if(historyArr.length < 10){
-        historyArr.unshift(currHist);
-    }
-    else{
-        historyArr.pop();
-        historyArr.unshift(currHist);
-    }
-    addToHistory();*/
 
     ms= 0;
     sec = 0;
