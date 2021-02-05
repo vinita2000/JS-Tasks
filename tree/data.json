@@ -1,0 +1,158 @@
+[
+    {
+        "name": "BOD",
+        "id": "e35b5a3d-bd35-4557-94a8-4e51d0709e0a",
+        "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+        "createdAt": "2021-02-01T05:04:54.723Z",
+        "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+        "code": "CWS01",
+        "parent": null
+    },
+    {
+        "name": "General Manager",
+        "id": "d259b957-255b-4430-8dda-49c5fec3530f",
+        "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+        "createdAt": "2021-02-01T06:09:59.619Z",
+        "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+        "code": "CWS02",
+        "parent": {
+            "code": "CWS01",
+            "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+            "createdAt": "2021-02-01T05:04:54.723Z",
+            "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+            "id": "e35b5a3d-bd35-4557-94a8-4e51d0709e0a",
+            "name": "BOD",
+            "updatedAt": "2021-02-01T05:04:54.723Z"
+        }
+    },
+    {
+        "name": "Project Manager",
+        "id": "d104b04e-4331-4de9-acae-2ea831365015",
+        "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+        "createdAt": "2021-02-01T06:12:13.384Z",
+        "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+        "code": "CWS03",
+        "parent": {
+            "code": "CWS02",
+            "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+            "createdAt": "2021-02-01T06:09:59.619Z",
+            "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+            "id": "d259b957-255b-4430-8dda-49c5fec3530f",
+            "name": "General Manager",
+            "updatedAt": "2021-02-01T06:09:59.619Z"
+        }
+    },
+    {
+        "name": "Purchasing Department",
+        "id": "43a9127c-2290-48ad-9563-bd15460ff8be",
+        "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+        "createdAt": "2021-02-01T06:12:47.983Z",
+        "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+        "code": "CWS04",
+        "parent": {
+            "code": "CWS02",
+            "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+            "createdAt": "2021-02-01T06:09:59.619Z",
+            "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+            "id": "d259b957-255b-4430-8dda-49c5fec3530f",
+            "name": "General Manager",
+            "updatedAt": "2021-02-01T06:09:59.619Z"
+        }
+    }, {
+        "name": "Engineer Manager",
+        "id": "a2469fc7-bdff-4144-b4e6-d6897af6e39f",
+        "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+        "createdAt": "2021-02-01T06:13:06.584Z",
+        "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+        "code": "CWS05",
+        "parent": {
+            "code": "CWS02",
+            "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+            "createdAt": "2021-02-01T06:09:59.619Z",
+            "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+            "id": "d259b957-255b-4430-8dda-49c5fec3530f",
+            "name": "General Manager",
+            "updatedAt": "2021-02-01T06:09:59.619Z"
+        }
+    }, {
+        "name": "HR",
+        "id": "19fe778e-3df3-4178-82e7-d3588d6e4856",
+        "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+        "createdAt": "2021-02-01T06:13:25.277Z",
+        "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+        "code": "CWS06",
+        "parent": {
+            "code": "CWS02",
+            "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+            "createdAt": "2021-02-01T06:09:59.619Z",
+            "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+            "id": "d259b957-255b-4430-8dda-49c5fec3530f",
+            "name": "General Manager",
+            "updatedAt": "2021-02-01T06:09:59.619Z"
+        }
+    }, {
+        "name": "Section Chief",
+        "id": "80e1637a-86bc-4953-a7e7-e6486fe7a63c",
+        "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+        "createdAt": "2021-02-01T06:13:56.216Z",
+        "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+        "code": "CWS07",
+        "parent": {
+            "code": "CWS03",
+            "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+            "createdAt": "2021-02-01T06:12:13.384Z",
+            "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+            "id": "d104b04e-4331-4de9-acae-2ea831365015",
+            "name": "Project Manager",
+            "updatedAt": "2021-02-01T06:12:13.384Z"
+        }
+    }, {
+        "name": "Materials",
+        "id": "f2ebcbdc-3c96-4391-a7d8-6c318e096303",
+        "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+        "createdAt": "2021-02-01T06:14:19.020Z",
+        "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+        "code": "CWS08",
+        "parent": {
+            "code": "CWS04",
+            "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+            "createdAt": "2021-02-01T06:12:47.983Z",
+            "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+            "id": "43a9127c-2290-48ad-9563-bd15460ff8be",
+            "name": "Purchasing Department",
+            "updatedAt": "2021-02-01T06:12:47.983Z"
+        }
+    }, {
+        "name": "Site Manager",
+        "id": "87de029a-325f-4dcc-bea5-6a50f2482c28",
+        "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+        "createdAt": "2021-02-01T06:14:43.035Z",
+        "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+        "code": "CWS09",
+        "parent": {
+            "code": "CWS05",
+            "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+            "createdAt": "2021-02-01T06:13:06.584Z",
+            "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+            "id": "a2469fc7-bdff-4144-b4e6-d6897af6e39f",
+            "name": "Engineer Manager",
+            "updatedAt": "2021-02-01T06:13:06.584Z"
+        }
+    }, {
+        "name": "Structral Engineer",
+        "id": "1a03d1c3-fd86-4f55-b165-ffb5122a18be",
+        "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+        "createdAt": "2021-02-01T06:15:14.114Z",
+        "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+        "code": "CWS10",
+        "parent": {
+            "code": "CWS05",
+            "companyID": "ab6e34f2-d5e7-4585-94ec-fb04307df08a",
+            "createdAt": "2021-02-01T06:13:06.584Z",
+            "createdBy": "17c649cf-77eb-4eac-8032-2d0ec6450317",
+            "id": "a2469fc7-bdff-4144-b4e6-d6897af6e39f",
+            "name": "Engineer Manager",
+            "updatedAt": "2021-02-01T06:13:06.584Z"
+        }
+    }
+]
