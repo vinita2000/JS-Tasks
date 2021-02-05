@@ -1,5 +1,6 @@
 const data = require('./data.json');
 
+// dic stores the node and its child nodes as key and value pair respectively 
 let dic = {};
 function makeTree() {
     for (let obj of data) {
