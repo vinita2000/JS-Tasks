@@ -34,7 +34,7 @@ function printAllDetails(node){
 }
 
 // traverses all successive childs of a node
-function findChildNodes(node) {
+function findChildNodes(node, level) {
     if (!(dic[`${node}`])) { // base condition 
         console.log('\n',` || Leaf Node || `, '\n');
         return;
@@ -43,9 +43,9 @@ function findChildNodes(node) {
     let len = currNodeLst.length;
     
     for (let i = 0; i < len; i++) {
-        //console.log(`Successor : ${currNodeLst[i]}`);
+        console.log(`level ${level} : ${currNodeLst[i]}`);
         printAllDetails(currNodeLst[i]);
-        findChildNodes(currNodeLst[i]);
+        findChildNodes(currNodeLst[i], level+1);
     }
 }
 
@@ -54,6 +54,6 @@ makeTree();
 console.log('\n');
 
 // Input the node for which to run the code
-let node = 'CWS64';
-console.log(`**** Assuming ${node} as Root for the current branch ****`, '\n');
-findChildNodes(node);
+let node = 'CWS01';
+console.log(`**** Assuming ${node} on level 0 ****`, '\n');
+findChildNodes(node, 1);
